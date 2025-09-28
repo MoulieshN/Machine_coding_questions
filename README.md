@@ -21,6 +21,7 @@ Build Tool: Maven / Gradle (if applicable)
 
 
 ## Repository structure
+```
 machine_coding_qeustions/
 │── README.md
 │── src/
@@ -31,7 +32,7 @@ machine_coding_qeustions/
 │   ├── logger_framework/
 │   ├── book_my_show/
 │   └── ...
-
+```
 
 * Each folder consists of
 ProblemStatement.md – question description
