@@ -7,31 +7,40 @@ An elevator system is designed to efficiently transport people between floors in
 * The building has multiple floors and can have multiple elevators.
 * Elevators can be called from any floor and can travel to any floor.
 * Each elevator has a maximum capacity and weight limit.
-
 * The system schedules elevator movement based on requests and optimizes for efficiency.
 
-‍
-
-Operation:
+### Operation:
 
 * Users can request an elevator from any floor by pressing up/down buttons.
-
 * Inside the elevator, users can select destination floors. (There is one more type, where users can choose destination floors outside only, but we are not covering those here !!)
-
 * The system prioritizes and schedules these requests efficiently.
-
 * Elevators have indicators showing current floor and direction.
 
- ‍
 
-Safety Features:
+### Safety Features:
 
 * Emergency stop functionality must be available.
-
 * Overload detection prevents elevator movement if capacity is exceeded.
-
 * Door sensors prevent doors from closing if obstructed.
+
+
+## Class diagram
+
+![alt text](image-1.png)
+
+## RequestFlow (Example)
+![alt text](image-2.png)
+
+## Design patterns used
+ 
+* Observer pattern: Notifies the all the floordisplay of that elevator
+* Strategy pattern: Choose the bestelevator for a request according to the selected strategy
 
 
 ## OUTPUT
 ![alt text](image.png)
+
+## Extensive requirement
+* Supports floor selection from the external control panel only.
+* Supporting express elevators or other types of elevators etc.
+* Utilizes the State Pattern for state transitions and the Factory Pattern for elevator creation.
