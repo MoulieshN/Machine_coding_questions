@@ -17,6 +17,8 @@ Each folder represents an independent project focused on **core design principle
 | 🚗 **Parking_Lot** | Simulates a real-world parking lot with vehicle entry, slot allocation, and exit management. <br>Designed using **object-oriented modeling** with extensibility in mind. |
 | 🐍 **SnakeAndFood** | Classic console-based Snake game with modular design principles, focusing on separation of concerns and maintainability. |
 | ❌ **Tic_Tac_Toe** | Interactive Tic Tac Toe implementation showcasing **turn-based logic**, **board validation**, and **result detection**. |
+| 🧾 **Logging_System** | Custom **thread-safe logging framework** supporting multiple log levels, formats (PlainText, JSON), and destinations (Console, File, DB). <br>Implements **Strategy**, **Singleton**, and **Observer** design patterns for flexibility, configurability, and extensibility. |
+
 
 ---
 
