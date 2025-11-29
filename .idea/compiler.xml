@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Vending_Machine" />
         <module name="Tic_Tac_Toe" />
+        <module name="SplitWise" />
+        <module name="Parking_Lot" />
         <module name="Logging_System" />
         <module name="SnakeAndFood" />
         <module name="Elevator_System" />
-        <module name="Parking_Lot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
